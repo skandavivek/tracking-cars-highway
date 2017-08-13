@@ -1,4 +1,7 @@
 # tracking-cars-highway
+
+Live stream videos can be obtained from the caltrans website
+
 Modified Lucas-Kanade algorithm to detect and track cars
 
 cabrillo1.asf is the movie of cars to track
