@@ -8,3 +8,7 @@ lk_track2.py is the modified Lucas-Kanade algorithm to track cars, features are 
 lk-linker_2 links the positions of cars plus instantaneous velocity to nearest positions in adjacent times through k-d-tree in order to build 'IDs' of cars. Output is cabrillo-1-lk-tracked.txt
 
 lk-track-traj visualizes cabrillo-1-lk-tracked.txt to confirm tracking
+
+
+Here's an example:
+
