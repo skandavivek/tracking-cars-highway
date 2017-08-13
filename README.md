@@ -16,4 +16,4 @@ lk-track-traj visualizes cabrillo-1-lk-tracked.txt to confirm tracking
 Here's an example:
 
 ![](./image/227.jpg)
-![](./image/tracked.mp4)
+![](./image/tracked2.mp4)
