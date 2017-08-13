@@ -12,4 +12,4 @@ lk-track-traj visualizes cabrillo-1-lk-tracked.txt to confirm tracking
 
 Here's an example:
 
-../master/227.jpg
+(../master/227.jpg)
