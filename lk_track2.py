@@ -35,7 +35,7 @@ if __name__ == '__main__':
                        qualityLevel = 0.3,
                        minDistance = 25,
                        blockSize = 25 )
-    track_len = 50
+    #track_len = 50
     detect_interval = 1
     tracks = []
     cam = cv2.VideoCapture(video_src)
@@ -65,8 +65,8 @@ if __name__ == '__main__':
 			save=np.r_[save,c1]
 			new_tracks.append(tr)
                         cv2.circle(vis, (x, y), 3, (0, 0, 255), -1)
-                    if len(tr) > track_len:
-                        del tr[0]
+                    #if len(tr) > track_len:
+                        #del tr[0]
                     
                 tracks = new_tracks
                 cv2.polylines(vis, [np.int32(tr) for tr in tracks], False, (0, 255, 0),2)
